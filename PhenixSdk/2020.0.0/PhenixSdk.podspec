@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
                       }
   spec.author       = "Phenix Real Time Solutions, Inc."
 
-  spec.source       = { :git => "git@github.com:sameh0/iOSSDK.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://gitlab.com/sameh0/phenix.git", :tag => "v#{spec.version}" }
   spec.ios.vendored_framework  = "lib/Universal/PhenixSdk.framework"
 
   spec.platform     = :ios, "9.0"
